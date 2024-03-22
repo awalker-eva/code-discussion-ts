@@ -1,0 +1,19 @@
+{
+  "name": "code-discussion-ts",
+  "version": "1.0.0",
+  "description": "Please clone this repo locally, and checkout testq.ts... you can see some types and a few questions... make a branch locally called {your-name}, answer up to the bonus questions and make a pr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awalker-eva/code-discussion-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awalker-eva/code-discussion-ts/issues"
+  },
+  "homepage": "https://github.com/awalker-eva/code-discussion-ts#readme"
+}
