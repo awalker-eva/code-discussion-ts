@@ -2,24 +2,24 @@
 
 //Given the following TypeScript type definitions:
 
-type Dev = {
+type TDev = {
   firstName: string;
   lastName: string;
   specialty: string;
 };
 
-type QaEngineer = {
+type TQaEngineer = {
   firstName: string;
   lastName: string;
   rank: number;
 };
 
-type QaTeam = {
+type TQaTeam = {
   lead: QaEngineer;
   qaEngineers: QaEngineer[];
 };
 
-type DevTeam = {
+type TDevTeam = {
   lead: Dev;
   developers: Dev[];
   qa: QaTeam;
