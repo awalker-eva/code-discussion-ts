@@ -15,14 +15,14 @@ type TQaEngineer = {
 };
 
 type TQaTeam = {
-  lead: QaEngineer;
-  qaEngineers: QaEngineer[];
+  lead: TQaEngineer;
+  qaEngineers: TQaEngineer[];
 };
 
 type TDevTeam = {
-  lead: Dev;
-  developers: Dev[];
-  qa: QaTeam;
+  lead: TDev;
+  developers: TDev[];
+  qa: TQaTeam;
 };
 
 //Tasks:
